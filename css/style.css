@@ -1,0 +1,177 @@
+.prodiv {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 0px;
+    color: white;
+}
+
+.propic {
+    background: linear-gradient(to bottom, #6600ff 0%, #666699 100%);
+}
+
+.inp {
+    margin-top: 10px;
+}
+
+.fol {
+    padding-top: 30px;
+}
+
+.leftimg {
+    margin-top: -10px;
+}
+
+.names {
+    color: blue;
+}
+
+.add {
+    color: green;
+}
+
+.list {
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.listele {
+    padding-top: 20px;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.down {
+    padding-bottom: 20px;
+}
+
+.but {
+    background: linear-gradient(to bottom, #009933 0%, #66ff66 100%);
+}
+
+.imgs {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.navimg {
+    height: 30px;
+    widows: 30px;
+}
+
+.navb {
+    background: #520284;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.postpic {
+    margin-top: 10px;
+}
+
+.likes {
+    float: left;
+}
+
+.follow {
+    color: grey;
+}
+
+.comment {
+    margin-top: 40px;
+}
+
+.jumb {
+    padding: 0px !important;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+
+.blck {
+    background: #000000;
+}
+
+.navup {
+    margin-top: -50px;
+}
+
+.overlap {
+    top: -100px;
+    position: relative;
+    left: 30px;
+}
+
+.pgimgup {
+    margin-top: -100px;
+}
+
+.fbbloc {
+    border-color: blue;
+    background: blue;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.jumbimg {
+    margin: 0px;
+    padding: 0px;
+}
+
+.thumbimg {
+    padding: 0px !important;
+}
+
+.jumbtxt {
+    margin-top: 40px;
+    color: white;
+}
+
+.jumbtxt1 {
+    margin-top: 60px;
+    color: white;
+    float: right;
+}
+
+.yada {
+    margin-bottom: -80px;
+}
+
+.instabloc {
+    display: block;
+    color: white;
+    background: pink;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.twbloc {
+    display: block;
+    color: white;
+    background: #33ccff;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.cards {
+    border: 1px solid grey;
+    min-height: 300px;
+}
+
+.car {
+    padding: 10px;
+    text-align: center;
+}

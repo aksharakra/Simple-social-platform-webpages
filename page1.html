@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>News Feed</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navb">
+        <!--Navbar starts-->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--Logo-->
+                <a class="navbar-brand" href="#"><img src="images/logo.png" width="40px" height="40px" class="img-circle"></a>
+            </div>
+            <!--Search bar-->
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control col-md-offset-10 col-sm-offset-8" style="width: 400px" placeholder="Search">
+                </div>
+            </form>
+            <!--Links on the left-->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-bell"></span></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/pro.png" class="img-circle navimg"> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!--Navbar ends-->
+    <div class="container listele">
+        <div class="row">
+            <!--First column-->
+            <div class="col-md-3 col-sm-3">
+                <div class="row propic">
+                    <div class="col-md-2 col-sm-2 leftimg">
+                        <img src="images/pro.png" class="img-circle" width="50px" height="50px">
+                    </div>
+                    <div class="col-md-10 col-sm-10 prodiv down">
+                        <b>HackSociety</b>
+                        <br> 1233 followers
+                    </div>
+                </div>
+                <ul class="list col-xs-12">
+                    <li class="listele"><span class="glyphicon glyphicon-home icon" aria-hidden="true"></span><a href="#">Home<span class="badge">9+</span></a></li>
+                    <li class="listele"><span class="glyphicon glyphicon-map-marker icon" aria-hidden="true"></span><a href="#">People Nearby</a></li>
+                    <li class="listele"><span class="glyphicon glyphicon-user icon down" aria-hidden="true"></span><a href="#">Friends<span class="badge">364</span></a></li>
+                    <hr>
+                    <li class="listele"><span class="glyphicon glyphicon-envelope icon" aria-hidden="true"></span>Messages</li>
+                    <li class="listele"><span class="glyphicon glyphicon-picture icon" aria-hidden="true"></span>Images</li>
+                    <li class="listele"><span class="glyphicon glyphicon-facetime-video icon down" aria-hidden="true"></span>Videos</li>
+                </ul>
+                <button type="button" class="btn btn-default but" aria-label="Left Align">Chat Online</button>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/follow.jpg" class="imgs">
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/follow.jpg" class="imgs">
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/follow.jpg" class="imgs">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/follow.jpg" class="imgs">
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/follow.jpg" class="imgs">
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/follow.jpg" class="imgs">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/follow.jpg" class="imgs">
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/follow.jpg" class="imgs">
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/follow.jpg" class="imgs">
+                    </div>
+                </div>
+            </div>
+            <!--First column ends-->
+            <!--Second column starts-->
+            <div class="col-md-6 col-sm-6">
+                <div class="row">
+                    <div class="col-md-1 col-sm-1">
+                        <img src="images/pro.png" class="img-circle" width="50px" height="50px">
+                    </div>
+                    <div class="col-md-4 col-sm-4 inp">
+                        <input class="form-control" type="text" name="status" placeholder="Write today's update">
+                    </div>
+                    <div class="col-md-6 col-sm-6 inp">
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                        </button>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
+                        </button>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>
+                        </button>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                        </button>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">Publish</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="row listele">
+                    <div class="col-xs-12">
+                        <img src="images/post.JPG" width="550px" height="300px">
+                    </div>
+                </div>
+                <div class="row listele">
+                    <div class="col-md-2 col-sm-2">
+                        <img src="images/follow.jpg" width="50px" height="50px">
+                    </div>
+                    <div class="col-md-7 col-sm-7">
+                        <a href="#">Clash Hacks</a> <span class="follow">Following</span>
+                        <br> Published the article 3hrs ago
+                    </div>
+                    <div class="col-md-3 col-sm-3 likes">
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"><span class="badge">30</span></span>
+                        </button>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        <div class="media-left" style="padding-top: 10px;">
+                            <a href="#">
+                                <img class="media-object img-circle" src="images/thumb5.jpg" height="50px" width="50px">
+                            </a>
+                        </div>
+                        <div class="media-body listele">
+                            <h4 class="media-heading">Barry</h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                        <br>
+                        <div class="media-left" style="padding-top: 10px;">
+                            <a href="#">
+                                <img class="media-object img-circle" src="images/thumb4.jpg" height="50px" width="50px">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Joe</h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                        <br>
+                        <div class="media-left" style="padding-top: 10px;">
+                            <a href="#">
+                                <img class="media-object" src="images/pro.png" width="50px" height="50px">
+                            </a>
+                        </div>
+                        <div class="media-body listele">
+                            <h4 class="media-heading"></h4>
+                            <input class="col-xs-12 form-control" type="text" placeholder="Write a comment...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Second column ends-->
+            <!--Third column starts-->
+            <div class="col-md-3 col-sm-3">
+                <div class="row">
+                    <h3>Who To Follow</h3>
+                    <hr>
+                </div>
+                <div class="row fol">
+                    <div class="col-md-2 col-sm-2">
+                        <img src="images/follow.jpg" class="img-circle" width="30px" height="30px">
+                    </div>
+                    <div class="col-md-10 col-sm-10 names">
+                        Clash Hacks
+                        <br>
+                        <a href="#" class="add">Add Friend</a>
+                    </div>
+                </div>
+                <div class="row fol">
+                    <div class="col-md-2 col-sm-2">
+                        <img src="images/follow.jpg" class="img-circle" width="30px" height="30px">
+                    </div>
+                    <div class="col-md-10 col-sm-10 names">
+                        Clash Hacks
+                        <br>
+                        <a href="#" class="add">Add Friend</a>
+                    </div>
+                </div>
+                <div class="row fol">
+                    <div class="col-md-2 col-sm-2">
+                        <img src="images/follow.jpg" class="img-circle" width="30px" height="30px">
+                    </div>
+                    <div class="col-md-10 col-sm-10 names">
+                        Clash Hacks
+                        <br>
+                        <a href="#" class="add">Add Friend</a>
+                    </div>
+                </div>
+                <div class="row fol">
+                    <div class="col-md-2 col-sm-2">
+                        <img src="images/follow.jpg" class="img-circle" width="30px" height="30px">
+                    </div>
+                    <div class="col-md-10 col-sm-10 names">
+                        Clash Hacks
+                        <br>
+                        <a href="#" class="add">Add Friend</a>
+                    </div>
+                </div>
+            </div>
+            <!--Third column ends-->
+        </div>
+</body>
+
+</html>
