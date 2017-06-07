@@ -8,53 +8,65 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navb">
-        <!--Navbar starts-->
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!--Logo-->
-                <a class="navbar-brand" href="#"><img src="images/logo.png" width="40px" height="40px" class="img-circle"></a>
-            </div>
-            <!--Search bar-->
-            <form class="navbar-form navbar-left">
-                <div class="form-group">
-                    <input type="text" class="form-control col-md-offset-10 col-sm-offset-8" style="width: 400px" placeholder="Search">
+    <header id="header">
+        <nav class="navbar navbar-inverse menu">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topMainNavBar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="home.html"><img src="img/logo.png" alt="logo" /></a>
                 </div>
-            </form>
-            <!--Links on the left-->
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-bell"></span></a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/pro.png" class="img-circle navimg"> <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
+                <div class="collapse navbar-collapse" id="topMainNavBar">
+                    <!-- Search Bar -->
+                    <form class="nav navbar-nav navbar-center navbar-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </form>
+                    <!-- Right Side Navigation Bar -->
+                    <ul class="nav navbar-nav navbar-right main-menu">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-top:10px"> <span><img src="img/friend.png" alt="" class="pic-sm"/></span></a>
+                            <ul class="dropdown-menu newsfeed-home">
+                                <li><a href="newsfeed.html">Friend Request 1</a></li>
+                                <li><a href="newsfeed-people-nearby.html">Friend Request 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-top:10px;"> <span><img src="img/notification.png" alt="" class="pic-sm" /></span></a>
+                            <ul class="dropdown-menu login">
+                                <li><a href="#">Notification 1</a></li>
+                                <li><a href="#">Notification 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-top:10px;"> <span><img src="img/accounts/sid.jpg" alt="home" class="pic-sm" /></span></a>
+                            <ul class="dropdown-menu page-list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Log Out</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
     <!--Navbar ends-->
     <div class="container listele">
         <div class="row">
             <!--First column-->
             <div class="col-md-3 col-sm-3">
                 <div class="row propic">
-                    <div class="col-md-2 col-sm-2 leftimg">
+                    <div class="col-md-2 leftimg">
                         <img src="images/pro.png" class="img-circle" width="50px" height="50px">
                     </div>
-                    <div class="col-md-10 col-sm-10 prodiv down">
+                    <div class="col-md-10 prodiv down">
                         <b>HackSociety</b>
                         <br> 1233 followers
                     </div>
@@ -235,6 +247,8 @@
             </div>
             <!--Third column ends-->
         </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
