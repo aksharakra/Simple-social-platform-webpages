@@ -8,7 +8,57 @@
 </head>
 
 <body>
-    <!--Jumbotron starts-->
+
+    <header id="header" style="z-index: 999">
+        <nav class="navbar navbar-inverse menu">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topMainNavBar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="home.html"><img src="img/logo.png" alt="logo" /></a>
+                </div>
+                <div class="collapse navbar-collapse" id="topMainNavBar">
+                    <!-- Search Bar -->
+                    <form class="nav navbar-nav navbar-center navbar-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </form>
+                    <!-- Right Side Navigation Bar -->
+                    <ul class="nav navbar-nav navbar-right main-menu">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-top:10px"> <span><img src="img/friend.png" alt="" class="pic-sm"/></span></a>
+                            <ul class="dropdown-menu newsfeed-home">
+                                <li><a href="newsfeed.html">Friend Request 1</a></li>
+                                <li><a href="newsfeed-people-nearby.html">Friend Request 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-top:10px;"> <span><img src="img/notification.png" alt="" class="pic-sm" /></span></a>
+                            <ul class="dropdown-menu login">
+                                <li><a href="#">Notification 1</a></li>
+                                <li><a href="#">Notification 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-top:10px;"> <span><img src="img/accounts/sid.jpg" alt="home" class="pic-sm" /></span></a>
+                            <ul class="dropdown-menu page-list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Log Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <!--Jumbotron starts-->
     <div class="container jumb">
         <div class="jumbotron jumb">
             <!--Cover photo-->
